@@ -1,4 +1,5 @@
 while True:
+#Getting input from the user
     a = int(input("Enter the Number 1 : " ))
     b = int(input("Enter the Number 2 : " ))
     print(a,
@@ -7,10 +8,12 @@ while True:
     subtract = a-b
     product = a*b
     divide = a/b
+#Giving choices inorder to make my program user friendly
     print("Press 1 to Add")
     print("Press 2 to Subtract")
     print("Press 3 to Product")
     print("Press 4 to Divide")
+#basic operation will be done
     operation =(input("Enter the operation you want to do (1,2,3,4): "))
     print(operation)
     if operation == "1":
