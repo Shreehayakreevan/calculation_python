@@ -13,17 +13,19 @@ while True:
     print("Press 2 to Subtract")
     print("Press 3 to Product")
     print("Press 4 to Divide")
-#basic operation will be done
+#asking the function which is required
     operation =(input("Enter the operation you want to do (1,2,3,4): "))
     print(operation)
+#Getting the operation required
     if operation == "1":
-        print(sum)
+        print("Sum of two numbers =" ,sum)
     elif operation == "2":
-        print(subtract)
+        print("Subtraction of two numbers =" ,subtract)
     elif operation == "3":
-        print(product)
+        print("Product of two numbers =" ,product)
     else:
-        print(divide)
+        print("Division of two numbers =" ,divide)
+#whether to continue or break
     print("Type yes to continue")
     print("Type no to break")
     x = input("Do you Want to Continue or Break : ")
@@ -32,4 +34,3 @@ while True:
             continue
     else:
             break
-    
